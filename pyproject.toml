@@ -1,0 +1,18 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+name = "autonaming"
+version = "0.1.0"
+description = "Auto naming for experiments"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+    { name = "Honghua Dong", email = "dhh19951@gmail.com" }
+]
+dependencies = [
+    "applang>=0.1.5",
+    "rich",
+]
